@@ -1,0 +1,6 @@
+Mai Quốc Việt - 20184017
+
+Nội dung demo Use case tìm kiếm bãi xe (tìm kiếm bãi xe theo tên):
+- Màn hình thực hiện chức năng của UC này nằm ở trong màn hình chính của chương trình Demo
+- Người dùng nhập tên bãi xe cần tìm vào thanh tìm kiếm và bấm nút "Search" để thực hiện chức năng
+- Tùy vào mức độ khớp của nội dung người dùng nhập vào, kết quả sẽ hiển thị ra tất cả/ nhiều/ một hoặc không ra kết quả nào cả

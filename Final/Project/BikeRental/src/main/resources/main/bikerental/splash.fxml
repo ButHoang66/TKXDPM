@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="600.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.bikerental.views.screen.splash.SplashScreenHandler">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <ImageView fx:id="logo" fitHeight="193.0" fitWidth="495.0" layoutX="188.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/Logo.jpg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="218.0" layoutY="283.0" prefHeight="96.0" prefWidth="475.0" text="128721_group18_20211" textAlignment="CENTER" textFill="#5091e6">
+                    <font>
+                        <Font name="Segoe UI Semibold" size="42.0" />
+                    </font>
+                </Label>
+                <Button id="button_start_intro" layoutX="342.0" layoutY="442.0" mnemonicParsing="false" onAction="#startHomeScreen" style="-fx-background-radius: 160;" text="START">
+                    <font>
+                        <Font size="40.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
